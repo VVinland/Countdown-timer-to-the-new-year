@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчёта</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="countdownWrapper">
+        <div class="title">До нового года осталось:</div>
+
+        <div id="year">2023</div>
+
+        <div class="countdown" id="countdown">
+            <div class="time">
+                <h2 id="days">00:00</h2>
+                <small>Дней</small>
+            </div>
+            <div class="time">
+                <h2 id="hours">00:00</h2>
+                <small>Часов</small>
+            </div>
+            <div class="time">
+                <h2 id="minutes">00:00</h2>
+                <small>Минут</small>
+            </div>
+            <div class="time">
+                <h2 id="seconds">00:00</h2>
+                <small>Секунд</small>
+            </div>
+        </div>
+        
+        <div class="preloader" id="preloader">
+            <div class="lds-ripple">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
